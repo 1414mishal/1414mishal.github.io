@@ -21737,8 +21737,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
   // ─── Supabase wiring ──────────────────────────────────────────────────────
-  const SUPABASE_URL      = "";
-  const SUPABASE_ANON_KEY = "";
+  const SUPABASE_URL      = "https://vklxpuiklrierbljdnwe.supabase.co";
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrbHhwdWlrbHJpZXJibGpkbndlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MzU5MzMsImV4cCI6MjA5MTQxMTkzM30.5P_abJANr2907Oh7Zml41PaKmrgOs-UB63j5Hjl9mq0";
   const hasSupabase = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
   const sb = hasSupabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
